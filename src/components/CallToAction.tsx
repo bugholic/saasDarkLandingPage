@@ -19,7 +19,7 @@ export const CallToAction = () => {
       className="bg-black text-white py-[72px] sm:py-24 text-center overflow-clip"
       ref={containerRef}
     >
-      <div className="container max-w-xl relative z-10">
+      <div className="container max-w-xl relative">
         <motion.div
           style={{
             translateY: translateY,
@@ -28,7 +28,7 @@ export const CallToAction = () => {
           <Image
             src={helixImage}
             alt=""
-            className="absolute top-6 left-[calc(100%+36px)] z-10"
+            className="absolute top-6 left-[calc(100%+36px)] pt-[60px]"
           />
         </motion.div>
         <motion.div
